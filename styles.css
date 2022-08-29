@@ -3,6 +3,11 @@ margin: o;
 box-sizing: border-box;
 padding: 0;
 }
+
+body{
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+}
 /* mobile view */
 @media only screen and (min-width: 375px) and (max-width:767px){
     .background-image-one{
@@ -27,5 +32,81 @@ padding: 0;
         height: 192px;
         margin: 105px auto 0 auto;
     }
-
+    .text-title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333950;
+        text-align: center;
+    }
+    .text-main{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #747B95;
+    }
+    .get-started-button{
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        border-style: none;
+        box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;    
+    }
+    .get-started-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .button-div{
+        width: 171px;
+        height: 56px;
+        margin: 0 auto 0 auto;
+    }
+    .option-div{
+        width: 327px;
+        margin: 80px auto 0 auto;
+    }
+    .basic, .pro, .ultimate{
+        width: 327px;
+        height: 508px;
+        margin-top:20px;
+        border-radius: 13px;
+        text-align: center;
+        border: 1px solid;
+    }
+    .basic, .ultimate{
+        background-color: #FFFFFF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+    }
+    .pro{
+        background-color: #5175FF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+    }
+    .b-basic-ultimate{
+        color: #5175FF;
+        mix-blend-mode: normal;;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        border-style: none;
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        mix-blend-mode: normal;
+        opacity: 0.15;
+       
+    }
+    .b-basic-ultimate span{
+        color: #5175FF;
+    }
+    .b-pro{
+        color:#5175FF ;
+    }
 }
