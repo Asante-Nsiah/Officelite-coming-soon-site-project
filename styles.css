@@ -15,7 +15,6 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 375px;
         height: 100vh;
         margin-top: -250px;
     }
@@ -69,7 +68,7 @@ body{
     }
     .option-div{
         width: 327px;
-        margin: 80px auto 0 auto;
+        margin: 80px auto 80px auto;
     }
     .basic, .pro, .ultimate{
         width: 327px;
@@ -77,18 +76,24 @@ body{
         margin-top:20px;
         border-radius: 13px;
         text-align: center;
-        border: 1px solid;
+
     }
     .basic, .ultimate{
         background-color: #FFFFFF;
         box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        position: relative;
     }
     .pro{
+        background-image: url(/assets/home/bg-pattern-footer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         background-color: #5175FF;
         box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        position: relative;
     }
     .b-basic-ultimate{
-        color: #5175FF;
+        color: #ffffff;
         mix-blend-mode: normal;;
         font-weight: 700;
         font-size: 16px;
@@ -100,13 +105,152 @@ body{
         border-radius: 28px;
         background-color: #5175FF;
         mix-blend-mode: normal;
-        opacity: 0.15;
-       
+        opacity: 0.15; 
     }
-    .b-basic-ultimate span{
-        color: #5175FF;
-    }
+    
     .b-pro{
         color:#5175FF ;
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #FFFFFF;
+        border-style: none;
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+        margin-top: 10px;
+
+    }
+    .option-title{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #333950;
+        margin-bottom: 50px;
+    }
+    .option-cost{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #333950;
+        margin:0;
+    }
+    .option-bill{
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 16px;
+        color: #333950;
+        margin-bottom: 60px;
+    }
+    .option-description, .option-support, .option-storage{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;  
+        color: #333950;
+        margin-bottom: 20px;
+    }
+    .option-title-pro{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+    }
+    .option-cost-pro{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #FFFFFF;
+        margin:0;
+    }
+    .option-bill-pro{
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-bottom: 60px;
+    }
+    .option-description-pro, .option-support-pro, .option-storage-pro{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;  
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .option-title-pro, .option-title{
+        padding-top: 20px;
+    }
+    .coming{
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+        border: 1px solid;
+    }
+    #site-date{
+        color: #5175FF;
+    }
+    .footer-site{
+        height: 1248px;
+        background-image: url(/assets/home/bg-pattern-footer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #25293A;
+        margin-top:-1150px ;
+    }
+    .countdown{
+        position: relative;
+        width: 328px;
+        margin: 0 auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0fr;
+    }
+    .timer{
+        width:72px;
+        height: 92px;
+        background-color: #333950;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 10px;
+    }
+    .period{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin: 0px;
+    }
+    .bottom-button{
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        border-style: none;
+        margin: 0 auto 0 auto;
+    }
+    .bottom-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .bottom-button-div{
+        width: 171px;
+        height: 56px;
+        margin: 50px auto 0 auto;
+        position: relative;
+
     }
 }
