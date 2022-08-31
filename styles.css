@@ -7,6 +7,7 @@ padding: 0;
 body{
     font-family: 'Kumbh Sans';
     font-style: normal;
+    background-color: #F2F2F2;
 }
 /* mobile view */
 @media only screen and (min-width: 375px) and (max-width:767px){
@@ -15,12 +16,14 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
-        margin-top: -280px;
+        width: 458px;
+        height: 458px;
+        margin-top: -180px;
+       margin-left: -50px;
     }
     #logo{
         width: 155px;
-        margin: -350px auto 0 auto;
+        margin: -250px auto 0 auto;
     }
     #chart img{
         width:171px;
@@ -29,7 +32,7 @@ body{
     #chart{
         width:171px;
         height: 192px;
-        margin: 135px auto 0 auto;
+        margin: 85px auto 0 auto;
     }
     .text-title{
         font-weight: 700;
@@ -108,6 +111,345 @@ body{
         background-color: #5175FF;
         mix-blend-mode: normal;
         opacity: 0.15; 
+    }
+    
+    .b-pro{
+        color:#5175FF ;
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #FFFFFF;
+        border-style: none;
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+        margin-top: 10px;
+
+    }
+    .option-title{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #333950;
+        margin-bottom: 50px;
+    }
+    .option-cost{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #333950;
+        margin:0;
+    }
+    .option-bill{
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 16px;
+        color: #333950;
+        margin-bottom: 60px;
+    }
+    .option-description, .option-support, .option-storage{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;  
+        color: #333950;
+        margin-bottom: 20px;
+    }
+    .option-title-pro{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+    }
+    .option-cost-pro{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #FFFFFF;
+        margin:0;
+    }
+    .option-bill-pro{
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-bottom: 60px;
+    }
+    .option-description-pro, .option-support-pro, .option-storage-pro{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;  
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .option-title-pro, .option-title{
+        padding-top: 20px;
+    }
+    .coming{
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+      
+    }
+    .signup-coming{
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #333950;
+        margin-top: 40px;
+       
+    }
+    #site-date{
+        color: #5175FF;
+    }
+    .footer-site{
+        height: 1248px;
+        background-image: url(/assets/home/bg-pattern-footer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #25293A;
+        margin-top:-1150px ;
+    }
+    .countdown{
+        position: relative;
+        width: 328px;
+        margin: 0 auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0fr;
+    }
+    .timer{
+        width:72px;
+        height: 92px;
+        background-color: #333950;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 10px;
+    }
+    .signup-timer{
+        width:72px;
+        height: 92px;
+        background-color: #5175FF;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #5175FF;
+        padding-top: 10px;
+    }
+    .period{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin: 0px;
+    }
+    .signup-period{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #333950;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin: 0px;
+    }
+    .bottom-button{
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        border-style: none;
+        margin: 0 auto 0 auto;
+    }
+    .bottom-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .bottom-button-div{
+        width: 171px;
+        height: 56px;
+        margin: 50px auto 0 auto;
+        position: relative;
+    }
+    .signup-footer-site{
+        height: 320px;
+        background-image: url(/assets/sign-up/bg-pattern-side.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #25293A;
+        margin-top: -200px;
+    }
+    .sign-form{
+        width: 327px;
+        height: 465px;
+        margin: 50px auto 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        border-radius: 13px;
+        position: relative;
+    }
+    .form-control{
+        border-style: none;
+        font-weight: 400;
+        line-height: 28px;
+        color: #747B95;
+        font-size: 16px;
+        opacity: 0.5;
+        mix-blend-mode: normal;
+        padding-left: 40px;
+        
+    }
+    .signup-button{
+        width: 279px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        border-style: none;
+    }
+    .signup-button-div{
+        width: 279px;
+        margin: 0 auto 0 auto;
+    }
+    hr{
+        width: 279px;
+    }
+}
+/* Tablet view */
+@media only screen and (min-width: 768px) and (max-width:1439px){
+    .background-image-one{
+        background-image: url(/assets/home/bg-pattern-header.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 666px;
+        width: 666px;
+        margin-top: -200px;
+        margin-left: 400px;
+    }
+    #logo{
+        width: 155px;
+        margin-top: -400px;
+        margin-left:30px;
+    }
+    #chart img{
+        width:281px;
+        height: 314px;
+    }
+    #chart{
+        width:281px;
+        height: 314px;
+        margin-top:80px ;
+        margin-left:440px;
+    }
+    .text-box{
+        width: 345px;
+        height: 352px;
+        margin-top:-360px ;
+        margin-left: 30px;
+    }
+    .text-title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333950;
+    }
+    .text-main{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #747B95;
+       
+    }
+    .get-started-button{
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        border-style: none;
+        box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;    
+    }
+    .get-started-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .button-div{
+        width: 171px;
+        height: 56px;
+    }
+    .option-div{
+        width: 689px;
+        margin: 200px auto 80px auto;
+    }
+    .basic, .pro, .ultimate{
+        width: 689px;
+        height: 316px;
+        margin-top:20px;
+        border-radius: 13px;
+        padding-left:30px ;
+        padding-top: 20px;
+
+    }
+    .basic, .ultimate{
+        background-color: #FFFFFF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        position: relative;
+    }
+    .pro{
+        background-image: url(/assets/home/bg-pattern-footer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #5175FF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        position: relative;
+    }
+    .option-title, .option-cost, .option-description, .option-storage, .option-support,
+    .option-title-pro
+    .b-basic-ultimate{
+        color: #ffffff;
+        mix-blend-mode: normal;;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        border-style: none;
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        mix-blend-mode: normal;
+        opacity: 0.15; 
+        margin-top: 100px;
     }
     
     .b-pro{
