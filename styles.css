@@ -16,11 +16,11 @@ body{
         background-size: cover;
         background-position: center;
         height: 100vh;
-        margin-top: -250px;
+        margin-top: -280px;
     }
     #logo{
         width: 155px;
-        margin: -300px auto 0 auto;
+        margin: -350px auto 0 auto;
     }
     #chart img{
         width:171px;
@@ -29,7 +29,7 @@ body{
     #chart{
         width:171px;
         height: 192px;
-        margin: 105px auto 0 auto;
+        margin: 135px auto 0 auto;
     }
     .text-title{
         font-weight: 700;
@@ -37,6 +37,7 @@ body{
         line-height: 48px;
         color: #333950;
         text-align: center;
+        padding: 0 10px 0 10px;
     }
     .text-main{
         font-weight: 400;
@@ -44,6 +45,7 @@ body{
         line-height: 26px;
         text-align: center;
         color: #747B95;
+        padding: 0 15px 0 15px;
     }
     .get-started-button{
         width: 171px;
@@ -188,7 +190,18 @@ body{
         text-transform: uppercase;
         letter-spacing: 5px;
         color: #FFFFFF;
-        border: 1px solid;
+      
+    }
+    .signup-coming{
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #333950;
+        margin-top: 40px;
+       
     }
     #site-date{
         color: #5175FF;
@@ -221,12 +234,36 @@ body{
         color: #FFFFFF;
         padding-top: 10px;
     }
+    .signup-timer{
+        width:72px;
+        height: 92px;
+        background-color: #5175FF;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #5175FF;
+        padding-top: 10px;
+    }
     .period{
         font-weight: 700;
         line-height: 28px;
         font-size: 12px;
         text-align: center;
         color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin: 0px;
+    }
+    .signup-period{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #333950;
         mix-blend-mode: normal;
         opacity: 0.5;
         margin: 0px;
@@ -251,6 +288,52 @@ body{
         height: 56px;
         margin: 50px auto 0 auto;
         position: relative;
-
+    }
+    .signup-footer-site{
+        height: 320px;
+        background-image: url(/assets/sign-up/bg-pattern-side.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #25293A;
+        margin-top: -200px;
+    }
+    .sign-form{
+        width: 327px;
+        height: 465px;
+        margin: 50px auto 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        border-radius: 13px;
+        position: relative;
+    }
+    .form-control{
+        border-style: none;
+        font-weight: 400;
+        line-height: 28px;
+        color: #747B95;
+        font-size: 16px;
+        opacity: 0.5;
+        mix-blend-mode: normal;
+        padding-left: 40px;
+        
+    }
+    .signup-button{
+        width: 279px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        border-style: none;
+    }
+    .signup-button-div{
+        width: 279px;
+        margin: 0 auto 0 auto;
+    }
+    hr{
+        width: 279px;
     }
 }
