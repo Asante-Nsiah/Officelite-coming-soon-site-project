@@ -99,7 +99,6 @@ body{
     }
     .b-basic-ultimate{
         color: #ffffff;
-        mix-blend-mode: normal;;
         font-weight: 700;
         font-size: 16px;
         line-height: 28px;
@@ -409,16 +408,15 @@ body{
     .option-div{
         width: 689px;
         margin: 200px auto 80px auto;
+       
     }
     .basic, .pro, .ultimate{
         width: 689px;
         height: 316px;
         margin-top:20px;
         border-radius: 13px;
-        padding-left:30px ;
-        padding-top: 20px;
-
     }
+   
     .basic, .ultimate{
         background-color: #FFFFFF;
         box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
@@ -433,11 +431,33 @@ body{
         box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
         position: relative;
     }
-    .option-title, .option-cost, .option-description, .option-storage, .option-support,
-    .option-title-pro
+   .basic, .ultimate, .pro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+    .tablet-responsive-One{
+        width: 344.5px;
+        height: 316px;
+        padding-left: 50px;
+        padding-top: 30px;
+      
+    }
+    .tablet-responsive-two .option-cost, .option-cost-pro{
+        margin: 0px;
+    }
+    .tablet-responsive-two{
+        width: 344.5px;
+        height: 316px;
+        padding-left: 50px;
+        padding-top: 80px;
+      
+    }
+    .tablet-responsive-One .option-cost, .option-cost-pro, .option-bill, .option-bill-pro{
+        margin: 0px;
+    }
+
     .b-basic-ultimate{
-        color: #ffffff;
-        mix-blend-mode: normal;;
+        color:#5175FF;
         font-weight: 700;
         font-size: 16px;
         line-height: 28px;
@@ -446,12 +466,12 @@ body{
         width: 171px;
         height: 56px;
         border-radius: 28px;
-        background-color: #5175FF;
+        background-color:rgb(81, 117, 255, 0.15) ;
         mix-blend-mode: normal;
-        opacity: 0.15; 
-        margin-top: 100px;
+        margin-top: -100px;
+        margin-left: 50px;
     }
-    
+
     .b-pro{
         color:#5175FF ;
         width: 171px;
@@ -462,68 +482,66 @@ body{
         font-weight: 700;
         line-height: 28px;
         font-size: 16px;
-        margin-top: 10px;
-
+        margin-top: -100px;
+        margin-left: 50px;
     }
     .option-title{
         font-weight: 700;
         font-size: 20px;
         line-height: 28px;
         color: #333950;
-        margin-bottom: 50px;
+       
     }
     .option-cost{
         font-weight: 700;
         font-size: 56px;
         line-height: 64px;
         color: #333950;
-        margin:0;
+       
     }
     .option-bill{
         font-weight: 400;
         line-height: 28px;
         font-size: 16px;
         color: #333950;
-        margin-bottom: 60px;
+      
     }
     .option-description, .option-support, .option-storage{
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;  
         color: #333950;
-        margin-bottom: 20px;
+       
     }
     .option-title-pro{
         font-weight: 700;
         font-size: 20px;
         line-height: 28px;
         color: #FFFFFF;
-        margin-bottom: 50px;
+        
     }
     .option-cost-pro{
         font-weight: 700;
         font-size: 56px;
         line-height: 64px;
         color: #FFFFFF;
-        margin:0;
+      
     }
     .option-bill-pro{
         font-weight: 400;
         line-height: 28px;
         font-size: 16px;
         color: #FFFFFF;
-        margin-bottom: 60px;
+       
     }
     .option-description-pro, .option-support-pro, .option-storage-pro{
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;  
         color: #FFFFFF;
-        margin-bottom: 20px;
+        
     }
-    .option-title-pro, .option-title{
-        padding-top: 20px;
-    }
+
     .coming{
         font-weight: 700;
         line-height: 48px;
@@ -549,13 +567,13 @@ body{
         color: #5175FF;
     }
     .footer-site{
-        height: 1248px;
+        height: 968px;
         background-image: url(/assets/home/bg-pattern-footer.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position:center;
         background-color: #25293A;
-        margin-top:-1150px ;
+        margin-top:-830px ;
     }
     .countdown{
         position: relative;
