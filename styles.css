@@ -7,7 +7,7 @@ padding: 0;
 body{
     font-family: 'Kumbh Sans';
     font-style: normal;
-    background-color: #F2F2F2;
+    /* background-color: #F2F2F2; */
 }
 /* mobile view */
 @media only screen and (min-width: 375px) and (max-width:767px){
@@ -184,6 +184,32 @@ body{
     .option-title-pro, .option-title{
         padding-top: 20px;
     }
+    .text-title-sign{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333950;
+        text-align: center;
+        padding: 0 10px 0 10px;
+    }
+    .background-image-one-sign{
+        background-image: url(/assets/home/bg-pattern-header.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 458px;
+        height: 458px;
+        margin-top: -180px;
+       margin-left: -50px;
+    }
+    .text-main-sign{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #747B95;
+        padding: 0 15px 0 15px;
+    }
     .coming{
         font-weight: 700;
         line-height: 48px;
@@ -308,16 +334,19 @@ body{
         box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
         border-radius: 13px;
         position: relative;
+        padding-top: 5px;
+       
     }
     .form-control{
         border-style: none;
         font-weight: 400;
         line-height: 28px;
         color: #747B95;
-        font-size: 16px;
+        font-size: 14px;
         opacity: 0.5;
         mix-blend-mode: normal;
         padding-left: 40px;
+   
         
     }
     .signup-button{
@@ -337,6 +366,12 @@ body{
     }
     hr{
         width: 279px;
+    }
+    .sign-choose{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+        color: #333950;
     }
 }
 /* Tablet view */
@@ -541,7 +576,37 @@ body{
         color: #FFFFFF;
         
     }
-
+    .text-title-sign{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333950;
+        text-align: center;
+        padding: 0 10px 0 10px;
+        margin-top: 70px;
+    }
+    .background-image-one-sign{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 458px;
+        height: 458px;
+        /* margin-top: -180px;
+        margin-left: -50px; */
+    }
+    .text-main-sign{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #747B95;
+        padding: 0 15px 0 15px;
+        width: 572px;
+        margin: 0 auto 0 auto;
+        white-space: nowrap;
+       
+    }
+    
     .coming{
         font-weight: 700;
         line-height: 48px;
@@ -560,7 +625,7 @@ body{
         text-transform: uppercase;
         letter-spacing: 5px;
         color: #333950;
-        margin-top: 40px;
+       
        
     }
     #site-date{
@@ -575,58 +640,77 @@ body{
         background-color: #25293A;
         margin-top:-830px ;
     }
+    .signup-coming{
+        margin-top: 60px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 48px;
+        letter-spacing: 5px;
+    }
     .countdown{
         position: relative;
-        width: 328px;
+        width: 448px;
         margin: 0 auto 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 0fr;
+        grid-template-columns: 1fr 1fr 1fr 0fr; 
+    }
+
+    .countdown-signup{
+        position: relative;
+        width: 448px;
+        margin: 0 auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0fr;   
     }
     .timer{
-        width:72px;
-        height: 92px;
+        width:100px;
+        height: 128px;
         background-color: #333950;
-        border-radius: 4px;
+        mix-blend-mode: normal;
+        border-radius: 13px;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 56px;
         line-height: 48px;
         text-align: center;
         color: #FFFFFF;
-        padding-top: 10px;
+        padding-top: 30px;
     }
     .signup-timer{
-        width:72px;
-        height: 92px;
-        background-color: #5175FF;
+        width:100px;
+        height: 128px;
+        background-color: rgb(81, 117, 255, 0.1);
         mix-blend-mode: normal;
-        opacity: 0.1;
-        border-radius: 4px;
+        border-radius: 13px;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 56px;
         line-height: 48px;
         text-align: center;
         color: #5175FF;
-        padding-top: 10px;
+        padding-top: 30px;
     }
+    
     .period{
         font-weight: 700;
         line-height: 28px;
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
         color: #FFFFFF;
         mix-blend-mode: normal;
         opacity: 0.5;
         margin: 0px;
+        margin-top: 5px;
+
     }
     .signup-period{
         font-weight: 700;
         line-height: 28px;
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
         color: #333950;
         mix-blend-mode: normal;
         opacity: 0.5;
         margin: 0px;
+        margin-top: 5px;
     }
     .bottom-button{
         width: 171px;
@@ -650,7 +734,7 @@ body{
         position: relative;
     }
     .signup-footer-site{
-        height: 320px;
+        height: 380px;
         background-image: url(/assets/sign-up/bg-pattern-side.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -659,13 +743,15 @@ body{
         margin-top: -200px;
     }
     .sign-form{
-        width: 327px;
-        height: 465px;
+        width: 445px;
+        height: 508px;
         margin: 50px auto 0 auto;
         background-color: #FFFFFF;
         box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
         border-radius: 13px;
         position: relative;
+        padding-top: 30px;
+        margin-top: 110px;
     }
     .form-control{
         border-style: none;
@@ -675,11 +761,11 @@ body{
         font-size: 16px;
         opacity: 0.5;
         mix-blend-mode: normal;
-        padding-left: 40px;
+        padding-left: 60px;
         
     }
     .signup-button{
-        width: 279px;
+        width: 360px;
         height: 56px;
         border-radius: 28px;
         background-color: #5175FF;
@@ -690,10 +776,28 @@ body{
         border-style: none;
     }
     .signup-button-div{
-        width: 279px;
+        width: 360px;
         margin: 0 auto 0 auto;
     }
     hr{
-        width: 279px;
+        width: 360px;
     }
+    #options{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+        color: #333950;
+    }
+    #options span{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+        color: #333950;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+    }
+}
+/* Desktop view */
+@media only screen and (min-width: 1440px){
+    
 }
