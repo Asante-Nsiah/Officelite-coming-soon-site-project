@@ -591,8 +591,6 @@ body{
         background-position: center;
         width: 458px;
         height: 458px;
-        /* margin-top: -180px;
-        margin-left: -50px; */
     }
     .text-main-sign{
         font-weight: 400;
@@ -799,5 +797,398 @@ body{
 }
 /* Desktop view */
 @media only screen and (min-width: 1440px){
+    .background-image-one{
+        background-image: url(/assets/home/bg-pattern-header.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1134px;
+        width: 1134px;
+        margin-top: -400px;
+        margin-left: 650px;
+    }
+    #logo{
+        width: 155px;
+        margin-top: -650px;
+        margin-left:165px;
+    }
+    #chart img{
+        width:475px;
+        height: 513px;
+    }
+    #chart{
+        width:475px;
+        height: 513px;
+        margin-top:80px ;
+        margin-left:780px;
+    }
+    .text-box{
+        width: 540px;
+        height: 388px;
+        margin-top:-450px ;
+        margin-left: 165px;
+    }
+    .text-title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #333950;
+    }
+    .text-main{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #747B95;
+       
+    }
+    .get-started-button{
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        border-style: none;
+        box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;    
+    }
+    .get-started-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .option-div{
+        width: 1110px;
+        margin: 200px auto 80px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .basic, .pro, .ultimate{
+        width: 350px;
+        height: 508px;
+        margin-top:20px;
+        border-radius: 13px;
+        text-align: center;
+    }
+    .basic, .ultimate{
+        background-color: #FFFFFF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        position: relative;
+    }
+    .pro{
+        background-image: url(/assets/home/bg-pattern-footer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #5175FF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        position: relative;
+    }
+    .b-basic-ultimate{
+        color: #5175FF;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        border-style: none;
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: rgb(81, 117, 255, 0.15);
+        mix-blend-mode: normal;
+       
+    }
     
+    .b-pro{
+        color:#5175FF ;
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #FFFFFF;
+        border-style: none;
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .option-title{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #333950;
+        margin-bottom: 50px;
+    }
+    .option-cost{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #333950;
+        margin:0;
+    }
+    .option-bill{
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 16px;
+        color: #333950;
+        margin-bottom: 40px;
+    }
+    .option-description, .option-support, .option-storage{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;  
+        color: #333950;
+        margin-bottom: 20px;
+    }
+    .option-title-pro{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+    }
+    .option-cost-pro{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #FFFFFF;
+        margin:0;
+    }
+    .option-bill-pro{
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    .option-description-pro, .option-support-pro, .option-storage-pro{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;  
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .option-title-pro, .option-title{
+        padding-top: 20px;
+    }
+    .footer-site{
+        height: 603px;
+        background-image: url(/assets/home/bg-pattern-footer.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        background-color: #25293A;
+        margin-top:-530px ;
+    }
+    .countdown{
+        position: relative;
+        width: 448px;
+        margin: 0 auto 0 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0fr; 
+    }
+    .timer{
+        width:100px;
+        height: 128px;
+        background-color: #333950;
+        mix-blend-mode: normal;
+        border-radius: 13px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 30px;
+    }
+    .period{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin: 0px;
+        margin-top: 5px;
+
+    }
+    .desktop-view-display{
+        width:1110px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto 0 auto;
+        border: 1px solid;
+    }
+    .bottom-button{
+        width: 171px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        border-style: none;
+    }
+    .bottom-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .bottom-button-div{
+        width: 171px;
+        height: 56px;
+        position: relative;
+        margin-left: 450px;
+    }
+    .coming{
+        width:1110px ;
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 16px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+        margin: 0 auto 0 auto;
+      
+    }
+    #site-date{
+        color: #5175FF;
+    }
+    .text-title-sign{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333950;
+        text-align: center;
+        padding: 0 10px 0 10px;
+        margin-top: 70px;
+    }
+    .background-image-one-sign{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 458px;
+        height: 458px;
+    }
+    .text-main-sign{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #747B95;
+        padding: 0 15px 0 15px;
+        width: 572px;
+        margin: 0 auto 0 auto;
+        white-space: nowrap; 
+    }
+    .signup-coming{
+        font-weight: 700;
+        line-height: 48px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #333950;
+    
+    }
+    .countdown-signup{
+        position: relative;
+        width: 448px;
+        margin: 0 auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 0fr;   
+    }
+    .signup-timer{
+        width:100px;
+        height: 128px;
+        background-color: rgb(81, 117, 255, 0.1);
+        mix-blend-mode: normal;
+        border-radius: 13px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 48px;
+        text-align: center;
+        color: #5175FF;
+        padding-top: 30px;
+    }
+    .signup-period{
+        font-weight: 700;
+        line-height: 28px;
+        font-size: 16px;
+        text-align: center;
+        color: #333950;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin: 0px;
+        margin-top: 5px;
+    }
+    .signup-footer-site{
+        height: 380px;
+        background-image: url(/assets/sign-up/bg-pattern-side.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #25293A;
+        margin-top: -200px;
+    }
+    .sign-form{
+        width: 445px;
+        height: 508px;
+        margin: 50px auto 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+        border-radius: 13px;
+        position: relative;
+        padding-top: 30px;
+        margin-top: 110px;
+    }
+    .form-control{
+        border-style: none;
+        font-weight: 400;
+        line-height: 28px;
+        color: #747B95;
+        font-size: 16px;
+        opacity: 0.5;
+        mix-blend-mode: normal;
+        padding-left: 60px;
+        
+    }
+    .signup-button{
+        width: 360px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #5175FF;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        border-style: none;
+    }
+    .signup-button-div{
+        width: 360px;
+        margin: 0 auto 0 auto;
+    }
+    hr{
+        width: 360px;
+    }
+    .signup-body{
+        width: 1020px;
+        height: 1152px;
+    }
+    .signup-footer-site{
+        height: 1152px;
+        width:420px;
+        background-image: url(/assets/sign-up/bg-pattern-side.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #25293A;
+
+    }
+    .display-side-by-side{
+        height: 1152px;
+        width: 1440px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
+
