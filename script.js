@@ -4,7 +4,7 @@ const countMinute = document.getElementById("minute");
 const countSecond = document.getElementById("seconds");
 
 // Counting down to 
-let countDownTimeDate = new Date("January 01, 2023 14:00:30").getTime();
+let countDownTimeDate = new Date("November 01, 2022 14:00:30").getTime();
 
 // Update countdown
 let countDownTime = setInterval(() => {

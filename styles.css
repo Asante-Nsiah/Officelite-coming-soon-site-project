@@ -611,7 +611,6 @@ body{
         padding: 0 15px 0 15px;
         width: 572px;
         margin: 0 auto 0 auto;
-        white-space: nowrap;
     }
     .coming{
         font-weight: 700;
@@ -1041,7 +1040,7 @@ body{
         width: 171px;
         height: 56px;
         position: relative;
-        margin-left: 450px;
+        margin-left: 370px;
     }
     .coming{
         width:1110px ;
@@ -1058,50 +1057,54 @@ body{
     #site-date{
         color: #5175FF;
     }
+    #logo-sign{
+        margin-top: 81px;
+        margin-left: 165px;
+    }
+    .text-box-sign{
+        width: 540px;
+        margin-left: 165px;
+        margin-top: 150px;
+    }
     .text-title-sign{
         font-weight: 700;
-        font-size: 40px;
+        font-size: 56px;
         line-height: 48px;
         color: #333950;
-        text-align: center;
-        padding: 0 10px 0 10px;
-        margin-top: 70px;
+        text-align: left;
+        margin-top: 0;
     }
-    .background-image-one-sign{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 458px;
-        height: 458px;
-    }
+    
     .text-main-sign{
         font-weight: 400;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 26px;
-        text-align: center;
+        text-align:left;
         color: #747B95;
-        padding: 0 15px 0 15px;
-        width: 572px;
-        margin: 0 auto 0 auto;
-        white-space: nowrap; 
+        width: 540px;
     }
     .signup-coming{
         font-weight: 700;
         line-height: 48px;
         font-size: 16px;
-        text-align: center;
         text-transform: uppercase;
         letter-spacing: 5px;
         color: #333950;
-    
+        margin-left:165px ;
+        width:300px ;
+    }
+    .signup-coming p span{
+        width: 247px;
+        height: 48px;
     }
     .countdown-signup{
         position: relative;
         width: 448px;
-        margin: 0 auto 0 auto;
+        margin: 0 auto 0 165px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 0fr;   
     }
+    
     .signup-timer{
         width:100px;
         height: 128px;
@@ -1126,25 +1129,16 @@ body{
         margin: 0px;
         margin-top: 5px;
     }
-    .signup-footer-site{
-        height: 380px;
-        background-image: url(/assets/sign-up/bg-pattern-side.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-color: #25293A;
-        margin-top: -200px;
-    }
+   
     .sign-form{
         width: 445px;
         height: 508px;
-        margin: 50px auto 0 auto;
+        margin: -480px -250px 0 auto;
         background-color: #FFFFFF;
         box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
         border-radius: 13px;
         position: relative;
         padding-top: 30px;
-        margin-top: 110px;
     }
     .form-control{
         border-style: none;
@@ -1155,6 +1149,12 @@ body{
         opacity: 0.5;
         mix-blend-mode: normal;
         padding-left: 60px;
+        padding-bottom: 10px;
+    }
+    .sign-form form input{
+        width: 360px;
+        
+        
         
     }
     .signup-button{
@@ -1177,10 +1177,10 @@ body{
     }
     .signup-body{
         width: 1020px;
-        height: 1152px;
+        height: 1024px;
     }
     .signup-footer-site{
-        height: 1152px;
+        height: 1024px;
         width:420px;
         background-image: url(/assets/sign-up/bg-pattern-side.svg);
         background-repeat: no-repeat;
@@ -1190,10 +1190,11 @@ body{
 
     }
     .display-side-by-side{
-        height: 1152px;
+        height: 1024px;
         width: 1440px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin: 0 auto 0 auto;
     }
 }
 
