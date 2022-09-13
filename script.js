@@ -2,6 +2,10 @@ const countDay = document.getElementById("day");
 const countHour = document.getElementById("hours");
 const countMinute = document.getElementById("minute");
 const countSecond = document.getElementById("seconds");
+const UserName = document.getElementById("name");
+const UserMail = document.getElementById("email");
+const UserPhone = document.getElementById("phone");
+const UserCompany = document.getElementById("company");
 
 // Counting down to 
 let countDownTimeDate = new Date("November 01, 2022 14:00:30").getTime();
@@ -27,3 +31,7 @@ let countDownTime = setInterval(() => {
     }
 
 }, "1000")
+
+const setError = (element, message) => {
+    const errorDisplay = 
+}

@@ -350,15 +350,43 @@ body{
        
     }
     .form-control{
+        font-family: 'Kumbh Sans';
+        font-style: normal;
         border-style: none;
         font-weight: 400;
         line-height: 28px;
         color: #747B95;
-        font-size: 14px;
+        font-size: 16px;
         opacity: 0.5;
         mix-blend-mode: normal;
-        padding-left: 40px;
-        padding-bottom: 10px;
+        margin-left: 30px;
+        width: 279px;
+    }
+    .form-control-two{
+        border-style: none;
+        font-weight: 700;
+        line-height: 28px;
+        color: #333950;
+        font-size: 16px;
+        mix-blend-mode: normal;
+        margin-left: 30px;
+        width: 250px;
+    }
+    form input{
+        padding:12px 0 12px 0 ;
+        border-style: none;
+        outline: none;
+    }
+   
+    select{
+        position: relative;
+        padding:7px 0 7px 0 ;
+        border-style: none;
+        outline: none;
+        appearance: none;
+        background-image: url(/assets/sign-up/icon-arrow-down.svg);
+        background-repeat: no-repeat;
+        background-position: right;
     }
     .signup-button{
         width: 279px;
@@ -370,20 +398,18 @@ body{
         text-align: center;
         color: #FFFFFF;
         border-style: none;
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 700;
     }
     .signup-button-div{
         width: 279px;
-        margin: 0 auto 0 auto;
+        margin: 40px auto 0 auto;
     }
     hr{
         width: 279px;
     }
-    .sign-choose{
-        font-weight: 700;
-        line-height: 28px;
-        font-size: 16px;
-        color: #333950;
-    }
+   
 }
 /* Tablet view */
 @media only screen and (min-width: 768px) and (max-width:1439px){
@@ -756,6 +782,8 @@ body{
         margin-top: 110px;
     }
     .form-control{
+        font-family: 'Kumbh Sans';
+        font-style: normal;
         border-style: none;
         font-weight: 400;
         line-height: 28px;
@@ -763,10 +791,37 @@ body{
         font-size: 16px;
         opacity: 0.5;
         mix-blend-mode: normal;
-        padding-left: 60px;
-        padding-bottom: 10px;
-        
+        margin-left: 40px;
+        width: 360px;
     }
+    .form-control-two{
+        border-style: none;
+        font-weight: 700;
+        line-height: 28px;
+        color: #333950;
+        font-size: 16px;
+        mix-blend-mode: normal;
+        margin-left: 40px;
+        width: 350px;
+    }
+    form input{
+        padding:12px 0 12px 10px ;
+        border-style: none;
+        outline: none;
+    }
+   
+    select{
+        position: relative;
+        padding:7px 0 7px 10px ;
+        border-style: none;
+        outline: none;
+        appearance: none;
+        background-image: url(/assets/sign-up/icon-arrow-down.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
+    
     .signup-button{
         width: 360px;
         height: 56px;
@@ -777,28 +832,20 @@ body{
         text-align: center;
         color: #FFFFFF;
         border-style: none;
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 700;
     }
     .signup-button-div{
         width: 360px;
-        margin: 0 auto 0 auto;
+        margin: 40px auto 0 auto;
     }
     hr{
         width: 360px;
     }
-    #options{
-        font-weight: 700;
-        line-height: 28px;
-        font-size: 16px;
-        color: #333950;
-    }
-    #options span{
-        font-weight: 700;
-        line-height: 28px;
-        font-size: 16px;
-        color: #333950;
-        mix-blend-mode: normal;
-        opacity: 0.4;
-    }
+
+
+    
 }
 /* Desktop view */
 @media only screen and (min-width: 1440px){
@@ -1130,7 +1177,7 @@ body{
         margin-top: 5px;
     }
    
-    .sign-form{
+    .sign-form{ 
         width: 445px;
         height: 508px;
         margin: -480px -250px 0 auto;
@@ -1141,6 +1188,8 @@ body{
         padding-top: 30px;
     }
     .form-control{
+        font-family: 'Kumbh Sans';
+        font-style: normal;
         border-style: none;
         font-weight: 400;
         line-height: 28px;
@@ -1148,16 +1197,42 @@ body{
         font-size: 16px;
         opacity: 0.5;
         mix-blend-mode: normal;
-        padding-left: 60px;
-        padding-bottom: 10px;
+        margin-left: 40px;
+        width: 350px;
     }
-    .sign-form form input{
+    .form-control-two{
+        border-style: none;
+        font-weight: 700;
+        line-height: 28px;
+        color: #333950;
+        font-size: 16px;
+        mix-blend-mode: normal;
+        margin-left: 40px;
         width: 360px;
-        
-        
-        
+    }
+    .form-control-two span select{
+        color: red;
+    }
+    form input{
+        padding:12px 0 12px 10px ;
+        border-style: none;
+        outline: none;
+    }
+   
+    select{
+        position: relative;
+        padding:7px 0 7px 10px ;
+        border-style: none;
+        outline: none;
+        appearance: none;
+        background-image: url(/assets/sign-up/icon-arrow-down.svg);
+        background-repeat: no-repeat;
+        background-position: right;
     }
     .signup-button{
+        font-family: 'Kumbh Sans';
+        font-style: normal;
+        font-weight: 700;
         width: 360px;
         height: 56px;
         border-radius: 28px;
@@ -1170,7 +1245,7 @@ body{
     }
     .signup-button-div{
         width: 360px;
-        margin: 0 auto 0 auto;
+        margin: 40px auto 0 auto;
     }
     hr{
         width: 360px;
@@ -1196,6 +1271,7 @@ body{
         grid-template-columns: 1fr 1fr;
         margin: 0 auto 0 auto;
     }
+    
 }
 
 
