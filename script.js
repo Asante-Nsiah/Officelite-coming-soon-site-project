@@ -2,10 +2,14 @@ const countDay = document.getElementById("day");
 const countHour = document.getElementById("hours");
 const countMinute = document.getElementById("minute");
 const countSecond = document.getElementById("seconds");
-const UserName = document.getElementById("name");
-const UserMail = document.getElementById("email");
-const UserPhone = document.getElementById("phone");
-const UserCompany = document.getElementById("company");
+const userName = document.getElementById("name");
+const userMail = document.getElementById("email");
+const userPhone = document.getElementById("phone");
+const userCompany = document.getElementById("company");
+const submitButton = document.querySelector(".signup-button");
+const submitForm = document.getElementById("sign-form");
+// const errorIcon = document.querySelector(".error-icon");
+// const SuccessIcon = document.querySelector(".success-icon");
 
 // Counting down to 
 let countDownTimeDate = new Date("November 01, 2022 14:00:30").getTime();
@@ -32,6 +36,59 @@ let countDownTime = setInterval(() => {
 
 }, "1000")
 
-const setError = (element, message) => {
-    const errorDisplay = 
-}
+// Form Validation
+console.log(submitButton)
+
+  
+        function nameCheck () {
+            if (userName.value =="") {
+                document.querySelector(".name-hr").style.border = "1px solid red";
+                document.querySelector(".form-control").className = "error-icon";
+            } else {
+                document.querySelector(".name-hr").style.border = "1px solid green"; 
+                document.querySelector(".form-control").className = "success-icon";
+            } 
+        }
+       
+        function mailCheck (){
+            if (userMail.value =="") {
+                document.querySelector(".email-hr").style.border = "1px solid red";
+                document.querySelector(".form-control").className = "error-icon";
+            } else {
+                document.querySelector(".email-hr").style.border = "1px solid green"; 
+                document.querySelector(".form-control").className = "success-icon";
+            }
+        }
+        
+        function phoneCheck () {
+            if (userPhone.value =="") {
+                document.querySelector(".phone-hr").style.border = "1px solid red";
+                document.querySelector(".form-control").className = "error-icon";
+    
+            } else {
+                document.querySelector(".phone-hr").style.border = "1px solid green";
+                document.querySelector(".form-control").className = "success-icon";
+            }
+        }
+        
+        function companyCheck () {
+            if (userCompany.value =="") {
+                document.querySelector(".company-hr").style.border = "1px solid red";
+                document.querySelector(".form-control").className = "error-icon";
+            } else {
+                document.querySelector(".company-hr").style.border = "1px solid green"; 
+                document.querySelector(".form-control").className = "success-icon";
+            }
+        }
+        
+        function validation() {
+            if (userName && userMail && userPhone && userCompany){
+                
+            }
+        }
+
+    userName.addEventListener("keyup", nameCheck);
+    userMail.addEventListener("keyup", mailCheck);
+    userPhone.addEventListener("keyup", phoneCheck);
+    userCompany.addEventListener("keyup", companyCheck);
+    submitButton.addEventListener("click", validation);   

@@ -9,6 +9,37 @@ body{
     font-style: normal;
     /* background-color: #F2F2F2; */
 }
+
+.error-icon{
+        margin-left: 40px;
+        width: 80%;
+        appearance: none;
+        background-image: url(/assets/sign-up/icon-cross.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        font-weight: 400;
+        line-height: 28px;
+        color: #747B95;
+        font-size: 16px;
+        opacity: 0.5;
+        mix-blend-mode: normal;
+}
+.success-icon{
+    margin-left: 40px;
+    width: 80%;
+    appearance: none;
+    background-image: url(/assets/sign-up/icon-check.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-weight: 400;
+    line-height: 28px;
+    color: #747B95;
+    font-size: 16px;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+}
+
+
 /* mobile view */
 @media only screen and (min-width: 375px) and (max-width:767px){
     .background-image-one{
